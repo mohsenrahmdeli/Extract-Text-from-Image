@@ -2,7 +2,6 @@ import pytesseract
 from docx import Document
 import os
 
-
 # Setting the Tesseract OCR path
 pytesseract.pytesseract.tesseract_cmd = r'Your  tesseract.exe file directory here' 
 
